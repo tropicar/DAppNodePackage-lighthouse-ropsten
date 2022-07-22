@@ -17,7 +17,8 @@ services:
     environment:
       DEBUG_LEVEL: info
       BEACON_API_PORT: 3500
-      HTTP_WEB3PROVIDER: "http://goerli-geth.dappnode:8545"
+      HTTP_WEB3PROVIDER: "http://ropsten.dappnode:8545"
+      HTTPS_ENGINE: "http://ropsten.dappnode:8551"
       CORSDOMAIN: "http://lighthouse.dappnode"
       CHECKPOINT_SYNC_URL: ""
       EXTRA_OPTS: ""

@@ -12,7 +12,7 @@ fields:
   - id: HTTPS_ENGINE
     target:
       type: environment
-      name: HTTPS_ENGINE
+      name: HTTP_ENGINE
       service: beacon-chain
     title: Eth1.x node URL
     description: >-

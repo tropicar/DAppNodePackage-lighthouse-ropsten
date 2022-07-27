@@ -8,7 +8,7 @@ exec lighthouse \
     --network ropsten \
     beacon_node \
     --datadir /root/.lighthouse \
-    --execution-endpoint $HTTP_WEB3PROVIDER \
+    --execution-endpoint $HTTP_ENGINE \
     --http \
     --http-allow-origin "*" \
     --http-address 0.0.0.0 \
